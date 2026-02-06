@@ -1,0 +1,28 @@
+/* Color overrides for a more vibrant palette */
+.elementor-kit-3 {
+  --e-global-color-primary: #06B6D4;
+  --e-global-color-secondary: #0B132B;
+  --e-global-color-text: #F8FAFC;
+  --e-global-color-accent: #FF3D7F;
+}
+
+/* Buttons */
+.elementor-button {
+  background-color: var(--e-global-color-accent);
+  color: #ffffff;
+  border-color: transparent;
+}
+.elementor-button:hover {
+  background-color: #e2346f;
+  color: #ffffff;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--e-global-color-primary);
+}
+
+/* Overlay tint for sections */
+.elementor-section .elementor-background-overlay {
+  background: linear-gradient(135deg, rgba(11, 19, 43, 0.6), rgba(255, 61, 127, 0.4));
+}
